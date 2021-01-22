@@ -1,0 +1,15 @@
+1)  Implement 2 step verification process for both login and signup actions
+    For this purpose, I will have to write backend for firebase to setup firebase_admin and then use
+    firebase_admin.auth().getUserByEmail(email) and then send verification email to the user
+
+2)  Eliminate bootstrap from our project. And write our own css. Using Either flexbox or grid!
+    The classes which need more styling are input, container
+    The most bootstrap polluted component in our entire app is FormComponent.
+
+3)  Implement other functionalities like sortBy (date, alphabetical-order etc),
+    search functionality (through a list of added movies), folder functionality (like movies in a folder according to date, genre etc)
+    dark mode
+
+4)  Forgot password functionality, facebook login, github login etc.
+
+5)  Transform the whole project to NextJS
